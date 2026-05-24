@@ -1,0 +1,21 @@
+OBJETIVO
+
+O objetivo do jogo é pular em cima das plataformas e ir subindo pelo ar.
+É opcional coletar as frutas.
+
+JOGADOR
+
+O jogador fica constantemente pulando.
+Ele pula até uma certa altura e depois cai novamente.
+Toda vez que ele pula, toca um efeito sonoro.
+
+
+PLATAFORMAS
+
+As plataformas são spawnadas de forma aleatória, de acordo com a altura de
+pulo do jogador (vai ter que ser uma variável global???)
+
+LISTA DE AFAZERES
+
+- Configurar player
+- Configurar plataforma

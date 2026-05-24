@@ -1,5 +1,7 @@
 ///@description Configurações iniciais
 
+#region Variáveis
+
 // Gravidade do jogador
 gravity = 0.1;
 
@@ -9,8 +11,15 @@ vspeed = -5;
 // Velocidade do movimento para os lados
 vel_h = 5;
 
-// Movimento do personagem para os lados
+// Coordenadas da câmera
+cam_y = y;
+cam_x = 0;
 
+#endregion
+
+#region Módulos
+
+// Movimento do personagem para os lados
 mov_horizontal = function()
 {
 	// Variável de direção do player
@@ -27,3 +36,15 @@ mov_horizontal = function()
 	// Definindo a velocidade
 	hspeed = _dir * vel_h;
 }
+
+// Movimento da câmera
+camera_movendo = function()
+{
+	// Limita a câmera para seguir o jogador
+	if(cam_y > y) cam_y = y;
+	
+	// Define a posição da câmera
+	camera_set_view_pos(view_camera[0], 0, cam_y - 160);
+}
+
+#endregion

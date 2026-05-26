@@ -36,10 +36,12 @@
   "name":"Capivara-Jumper-NoneClass",
   "resources":[
     {"id":{"name":"Capivara GDD","path":"notes/Capivara GDD/Capivara GDD.yy",},},
-    {"id":{"name":"obj_plat_spawner","path":"objects/obj_plat_spawner/obj_plat_spawner.yy",},},
+    {"id":{"name":"obj_acai","path":"objects/obj_acai/obj_acai.yy",},},
     {"id":{"name":"obj_plataforma","path":"objects/obj_plataforma/obj_plataforma.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"id":{"name":"scr_globais","path":"scripts/scr_globais/scr_globais.yy",},},
+    {"id":{"name":"spr_acai","path":"sprites/spr_acai/spr_acai.yy",},},
     {"id":{"name":"spr_bg_jogo","path":"sprites/spr_bg_jogo/spr_bg_jogo.yy",},},
     {"id":{"name":"spr_capi","path":"sprites/spr_capi/spr_capi.yy",},},
     {"id":{"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},},

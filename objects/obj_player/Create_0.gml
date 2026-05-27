@@ -48,4 +48,19 @@ camera_movendo = function()
 	}
 }
 
+warp_tela = function()
+{
+    var _lado_esquerdo = -(sprite_width / 2);
+    var _lado_direito = room_width + sprite_width / 2;
+    
+    if ( x < _lado_esquerdo)
+    {
+        x = _lado_direito;
+    }
+    if(x > _lado_direito)
+    {
+        x = _lado_esquerdo;
+    }
+}
+
 #endregion

@@ -6,7 +6,7 @@ var _margem = 600;
 
 if (camera_get_view_y(view_camera[0]) + _cam_height + _margem < y)
 {
-    var _obj = obj_plataforma;
+    var _obj = obj_plataforma_move;
     var _x = random_range(sprite_width / 2, room_width - sprite_width / 2);
     instance_create_layer(_x, ystart - _cam_height - _margem, layer, _obj);
     instance_destroy();

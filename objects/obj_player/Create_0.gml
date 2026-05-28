@@ -3,7 +3,7 @@
 #region Variáveis
 
 // Gravidade do jogador
-gravity = 0.1;
+gravity = 0.13;
 
 // Velocidade vertical, negativo para cima
 vel_v = -7;

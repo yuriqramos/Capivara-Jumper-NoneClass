@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"Capivara GDD","path":"notes/Capivara GDD/Capivara GDD.yy",},},
     {"id":{"name":"obj_acai","path":"objects/obj_acai/obj_acai.yy",},},
+    {"id":{"name":"obj_plataforma_cai","path":"objects/obj_plataforma_cai/obj_plataforma_cai.yy",},},
     {"id":{"name":"obj_plataforma_move","path":"objects/obj_plataforma_move/obj_plataforma_move.yy",},},
     {"id":{"name":"obj_plataforma","path":"objects/obj_plataforma/obj_plataforma.yy",},},
     {"id":{"name":"obj_plataforma2","path":"objects/obj_plataforma2/obj_plataforma2.yy",},},
